@@ -1,0 +1,6 @@
+﻿services:
+  laptopstore:
+    image: laptopstore
+    build:
+      context: .
+      dockerfile: Dockerfile
